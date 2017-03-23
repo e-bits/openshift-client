@@ -14,3 +14,5 @@ RUN apk add --no-cache ca-certificates
 RUN tar --strip-components=1 -xzvf  /opt/oc/release.tar.gz -C /opt/oc/ && \
     mv /opt/oc/oc /usr/bin/ && \
     rm -rf /opt/oc
+
+EXPOSE 8001
