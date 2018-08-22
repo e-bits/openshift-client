@@ -3,8 +3,8 @@ FROM frolvlad/alpine-glibc:latest
 MAINTAINER "Remo Inderbitzin" <remo@inderbitzin.org>
 
 # specify the version string of the oc release
-ENV OC_VERSION "v3.6.0"
-ENV OC_RELEASE "openshift-origin-client-tools-v3.6.0-c4dd4cf-linux-64bit"
+ENV OC_VERSION "v3.10.0"
+ENV OC_RELEASE "openshift-origin-client-tools-v3.10.0-dd10d17-linux-64bit"
 
 
 
